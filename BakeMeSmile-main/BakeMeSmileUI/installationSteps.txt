@@ -1,0 +1,45 @@
+https://reactnative.dev/docs/environment-setup
+
+ERRORS:
+
+'react-native' is not recognized as an internal or external command,
+- npm install -g react-native-cli
+- npm install
+
+jdk 11 issue 
+copy the path of jdk 17 C:\\Program Files\\Java\\jdk-17  and paste it to gradle properties
+C:\\Program Files\\Microsoft\\jdk-17.0.10.7-hotspot
+
+
+INSTALLATIONS:
+
+for backend
+npm i express nodemon - node modules and package lock
+npm i jsonwebtoken - backend 
+
+for ui
+
+npm i @react-native-async-storage/async-storage
+npm install --save react-native-toast-message
+npm i react-native-image-crop-picker
+npm install react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view
+npm install @react-navigation/drawer
+npm i react-native-reanimated
+npm install bcryptjs --save
+npm install react-native-linear-gradient
+npm install react-native-swiper
+npm install react-native-vector-icons
+
+
+IP:
+
+open cmd as admin and type ipconfig to get ip address
+
+192.168.254.168 - house
+172.30.5.110 - aun tip
+
+
+after downloading open backend and type nodemon app
+after typing nodemon app it will show "Database Connected"
+
+ui - npm start 
